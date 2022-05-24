@@ -5,7 +5,7 @@ orbitals = (
     (2, "3s"),
     (6, "3p"),
     (2, "4s"),
-    (10, "3d"),
+    (10, "3d")
 )
 
 print("Calculator supports up to 30 electrons")
