@@ -22,7 +22,7 @@ while True:
 
     print(f"Electronic configuration with {electron_num} electron(s):")
 
-    if electron_num == 24 or electron_num == 29:
+    if electron_num == 24 or electron_num == 29:  # Cr and Cu are more stable with 3d5 and 3d10 orbitals respectively
         for index in range(0, 4):
             print(orbitals[index][1] + str(orbitals[index][0]))
         print("3d" + str(electron_num - 19))
