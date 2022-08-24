@@ -24,8 +24,8 @@ while True:
 
     if electron_num == 24 or electron_num == 29:  # Cr and Cu are more stable with 3d5 and 3d10 orbitals respectively
         for index in range(0, 4):
-            print(orbitals[index][1] + str(orbitals[index][0]))
-        print("3d" + str(electron_num - 19))
+            print(f"{orbitals[index][1]}{orbitals[index][0]}")
+        print(f"3d{electron_num - 19}")
         print("4s1")
         continue
     else:
@@ -34,6 +34,6 @@ while True:
                 print(orbital[1] + str(orbital[0]))
                 electron_num -= orbital[0]
             else:
-                print(orbital[1] + str(electron_num))
+                print(f"{orbital[1]}{electron_num}")
                 break
         continue
