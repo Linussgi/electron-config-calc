@@ -31,7 +31,7 @@ while True:
     else:
         for orbital in orbitals:
             if electron_num > orbital[0]:
-                print(orbital[1] + str(orbital[0]))
+                print(f"{orbital[1]}{orbital[0]}")
                 electron_num -= orbital[0]
             else:
                 print(f"{orbital[1]}{electron_num}")
